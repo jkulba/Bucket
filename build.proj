@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.Build.Traversal/3.1.6">
+    <ItemGroup>
+        <ProjectReference Include="Kulba.Service.Bucket/Kulba.Service.Bucket.csproj" />
+        <ProjectReference Include="Kulba.Service.Bucket.Tests/Kulba.Service.Bucket.Tests.csproj" />
+    </ItemGroup>
+</Project>
