@@ -4,8 +4,7 @@
 The Bucket project 
 
 ### Generate new project on GitHub.com
-
-
+I created a new project in GitHub.com and added a simple README.md.  I then cloned to my local dev machine to add the new project.
 
 ### Map SSH key to 
 ```shell
@@ -47,3 +46,22 @@ In order to manually format the code using the editorconfig, execute the followi
 ```shell
 dotnet format
 ```
+
+### Dependencies
+dotnet add package Serilog.AspNetCore
+dotnet add package Serilog.Enrichers.Context
+dotnet add package Serilog.Enrichers.Environment
+dotnet add package Serilog.Enrichers.ExceptionData
+dotnet add package Serilog.Enrichers.Thread
+dotnet add package Serilog.Extensions.Hosting
+dotnet add package Serilog.Settings.Configuration
+dotnet add package Serilog.Sinks.Async
+dotnet add package Serilog.Sinks.Console
+dotnet add package Serilog.Sinks.Debug
+dotnet add package Serilog.Sinks.File
+dotnet add package Serilog.Sinks.Seq
+
+dotnet add package Microsoft.Extensions.Hosting
+dotnet add package Microsoft.Extensions.Hosting.WindowsServices
+dotnet add package Microsoft.Extensions.Hosting.Systemd
+dotnet add package Microsoft.Extensions.Http
